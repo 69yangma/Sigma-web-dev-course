@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+</head>
+<style>
+    .box{
+         border:2px solid black;
+         background-color: aqua;
+         width:80vw;
+         height:50vh;
+         margin:auto;
+         box-sizing: border-box;
+    }
+    .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+        .container > div{
+            font-size: 2em; 
+            border: 2px solid red;
+            width:50%;
+            height:50%;
+        }
+        .container > div >div{
+            border: 2px solid blue;
+            width: 50%;
+            height:50%;
+        }
+        .mycont{ 
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 100vmin;
+        }
+
+
+</style>
+<body>
+    <div class="box">
+        I am a box
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis dolor repudiandae, libero odio tempore nulla cumque, itaque amet illum, inventore iste ad?
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate esse quasi pariatur libero, fuga debitis tempora facilis ex iste minima doloremque nemo. Reiciendis, dignissimos.
+            <div>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quia itaque non nulla possimus ratione repudiandae sed. Quae, porro! Porro, rerum libero placeat quae atque, esse commodi quis quo labore veritatis quisquam id. Necessitatibus, similique illo molestiae saepe, enim exercitationem debitis consequatur doloribus repellendus placeat nisi voluptatibus qui recusandae facere nesciunt. Laudantium suscipit, nostrum ducimus dolorem at temporibus quod qui debitis fugit facere sunt atque labore, ullam aut eum, hic necessitatibus. Sunt autem obcaecati quam sint, enim rem id magni ipsa possimus, totam adipisci. Amet tempora architecto deleniti unde ab voluptates ullam asperiores nam incidunt sint quas porro, esse, vel error dolorem fugit suscipit distinctio illo voluptas perferendis qui commodi, assumenda excepturi? Reprehenderit, laboriosam sunt voluptates cumque ipsa id. Sed deserunt adipisci soluta vitae nulla distinctio officiis voluptatum harum odit perferendis laudantium veniam, a odio veritatis accusantium, dolorum inventore? Corporis similique aliquam, ducimus dolorem, porro repudiandae ut dignissimos accusamus laboriosam est incidunt fugiat sunt dolorum eius? Ex delectus animi amet, esse eligendi dolores, accusantium vel eveniet rerum alias voluptate quod sequi. Eveniet, cupiditate dolor natus necessitatibus minus inventore dolorem facilis beatae, quas, et at? Quas, alias odio? Suscipit odio vitae at consectetur dolor. Cum nemo laudantium laboriosam cumque ratione?  
+            </div>
+        </div>
+    </div>
+    
+    <div class="mycont">
+        I am another container
+    </div>
+</body>
+</html>
